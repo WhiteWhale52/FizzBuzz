@@ -2,10 +2,10 @@ package lab1;
 
 public class Multiples {
     public static void main(String[] args) {
-        System.out.println(multiples(3,5 ,1000 ));
+        System.out.println(multiples(1000, 3,5 ));
     }
 
-    private static int multiples(int a, int b, int n) {
+    public static int multiples(int n, int a, int b) {
         int numberOfMultiplesOfaOrb = 0;
         int i = 1;
         while(i<n){
